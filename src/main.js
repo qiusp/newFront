@@ -4,9 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import ElementUI from 'element-ui';
+Vue.use(ElementUI);
 // 导入样式
 import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI);
+//重置样式
+import '@/assets/css/reset.css'
 
 Vue.config.productionTip = false
 
